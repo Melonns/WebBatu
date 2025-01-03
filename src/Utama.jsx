@@ -4,9 +4,6 @@ import Carousel from "./Carousel";
 
 function Utama(){
     return(
-        // <div className="">
-        //     <img src="Batu1.jpg" className="pt-32 w-32 h-auto object-cover rounded-lg transform rotate-6" />
-        // </div>
         <div className="relative pt-44 flex flex-col items-center text-center p-6 md:p-12 bg-gray-50 sm:bg-none">
   {/* Elemen latar belakang */}
   <div
@@ -29,9 +26,17 @@ function Utama(){
         <p className="text-sm font-quattrocentro md:text-lg text-gray-600 mb-6 max-w-md">
           Ciptakan Suasana Alam di Rumah Anda dengan Batu Alam yang Indah dan Tahan Lama.
         </p>
-        <button onClick={() => window.open('https://shopee.co.id/naufalstone7', '_blank')} className="bg-amber-800 text-white px-6 py-2 rounded-md hover:bg-amber-900 transition duration-300 z-10">
+        <button onClick={() => window.open('https://shopee.co.id/naufalstone7', '_blank')} className="font-quattrocentro bg-amber-800 text-white px-6 py-2 rounded-md hover:bg-amber-900 transition duration-300 z-10">
           Pesan Sekarang
         </button>
+      </section>
+
+      {/* Profil Usaha */}
+      <section className="bg-gray-100 min-w-full">
+        <div>
+          <h1 className="text-center font-dosis text-2xl font-extrabold mb-4">Tentang Kami</h1>
+          <p className="font-quattrocentro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
       </section>
 
       {/* Carousel Section */}
