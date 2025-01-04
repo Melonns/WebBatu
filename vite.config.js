@@ -8,7 +8,7 @@ export default defineConfig({
     build:{
       outDir:'dist',
     },
-    base:"/WebBatu/",
+    base:"/",
     css: {
         postcss: {
           plugins: [tailwindcss],
