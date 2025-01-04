@@ -6,13 +6,13 @@ function Navbar() {
             <div className="container mx-auto flex items-center justify-between">
                 <a href="/" className="flex items-center text-2xl font-bold">
                     <img 
-                      className='h-16 rounded-full'
+                      className='h-12 rounded-full'
                       src='LogoBatu.jpg'
                       alt="Logo Batu"
                     />
-                    <span className="ml-4">Naufal Store</span> {/* Memberikan jarak antara logo dan tulisan */}
+                    <span className="ml-4">Naufal Store</span>
                 </a>
-                <ul className="flex space-x-28 mr-8">
+                <ul className="hidden lg:flex space-x-28 mr-8">
                     <li>
                         <a href="#home" className="hover:text-gray-400">
                             Home

@@ -5,7 +5,7 @@ import ProfilUsaha from "./ProfilUsaha";
 
 function Utama(){
     return(
-        <div className="relative pt-44 flex flex-col items-center text-center p-6 md:p-12 bg-gray-50 sm:bg-none">
+        <div className="relative pt-20 sm:pt-44 flex flex-col items-center text-center p-6 md:p-12 bg-gray-50 sm:bg-none">
   {/* Elemen latar belakang */}
   <div
     // style={{
