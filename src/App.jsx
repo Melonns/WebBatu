@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './Header'
+import Navbar from './Navbar'
 import Utama from './Utama'
 import Footer from './Footer'
 import '@fontsource/dosis'
@@ -11,7 +11,7 @@ function App() {
 
     return (
         <div>
-            {/* <Header /> */}
+            <Navbar />
             <Utama />
             <Footer />
         </div>

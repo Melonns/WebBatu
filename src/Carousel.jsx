@@ -41,7 +41,7 @@ function Carousel() {
       {carouselItems.map((item) => (
         <div
           key={item.id}
-          className="snap-center shrink-0 w-80 h-80 bg-gray-100 aspect-video rounded-md flex items-center justify-center shadow-md"
+          className="snap-center shrink-0 w-72 h-72 bg-gray-100 aspect-video rounded-md flex items-center justify-center shadow-md"
         >
           <img
             src={item.src}
@@ -70,7 +70,7 @@ function Carousel() {
     <div className="mt-6 flex justify-center">
       <button
         onClick={() => window.open('https://shopee.co.id/naufalstone7#product_list', '_blank')}
-        className="font-quattrocentro bg-amber-800 hover:bg-green-700 text-white py-2 px-4 rounded-md"
+        className="font-quattrocentro bg-amber-800 hover:bg-green-700 text-white py-2 px-6 rounded-md"
       >
         Selengkapnya
       </button>
