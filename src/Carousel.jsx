@@ -41,7 +41,7 @@ function Carousel() {
           {carouselItems.map((item) => (
             <div
               key={item.id}
-              className="snap-center shrink-0 w-20 h-20 sm:w-56 md:w-64 lg:w-72 xl:w-1/4 h-48 sm:h-56 md:h-64 lg:h-72 xl:h-96 bg-gray-100 aspect-video rounded-md flex items-center justify-center shadow-md"
+              className="snap-center shrink-0 w-24 h-24 sm:w-56 md:w-64 lg:w-72 xl:w-1/4 h-48 sm:h-56 md:h-64 lg:h-72 xl:h-96 bg-gray-100 aspect-video rounded-md flex items-center justify-center shadow-md"
             >
               <img
                 src={item.src}
