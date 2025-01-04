@@ -30,7 +30,7 @@ function Carousel() {
   {/* Wrapper Carousel */}
   <div className="min-w-full bg-white rounded-lg shadow-lg overflow-hidden relative p-4">
     <h2 className="text-center font-dosis text-2xl font-extrabold mb-4">
-      Koleksi Produk Batu Alam
+      Koleksi Produk Naufal Store
     </h2>
 
     {/* Track Carousel */}
@@ -70,7 +70,7 @@ function Carousel() {
     <div className="mt-6 flex justify-center">
       <button
         onClick={() => window.open('https://shopee.co.id/naufalstone7#product_list', '_blank')}
-        className="font-quattrocentro bg-amber-800 hover:bg-green-700 text-white py-2 px-6 rounded-md"
+        className="font-quattrocentro bg-amber-800 hover:bg-amber-900 text-white py-2 px-6 rounded-md"
       >
         Selengkapnya
       </button>

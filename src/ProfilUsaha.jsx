@@ -5,19 +5,22 @@ function ProfilUsaha() {
     {
       id: 1,
       name: "zapcorp",
-      review: "Produk kokoh dan berkualitas, sesuai ekspektasi! Penjual responsif dan terpercaya. Pasti order lagi!",
+      review:
+        "Produk kokoh dan berkualitas, sesuai ekspektasi! Penjual responsif dan terpercaya. Pasti order lagi!",
       rating: "⭐⭐⭐⭐⭐",
     },
     {
       id: 2,
       name: "l*****f",
-      review: "Barang sampai dengan aman dan sesuai ukuran. Terima kasih, penjual sangat profesional!",
+      review:
+        "Barang sampai dengan aman dan sesuai ukuran. Terima kasih, penjual sangat profesional!",
       rating: "⭐⭐⭐⭐⭐",
     },
     {
       id: 3,
       name: "herisektiyanto3",
-      review: "Produk sesuai deskripsi, pengemasan aman, dan respon cepat. Sangat direkomendasikan!",
+      review:
+        "Produk sesuai deskripsi, pengemasan aman, dan respon cepat. Sangat direkomendasikan!",
       rating: "⭐⭐⭐⭐⭐",
     },
   ];
@@ -52,6 +55,34 @@ function ProfilUsaha() {
             <p className="text-yellow-500">{review.rating}</p>
           </div>
         ))}
+      </div>
+
+      {/* Section Kontak */}
+      <h2 className="text-center font-dosis text-xl font-bold mb-4 mt-6">
+        Hubungi Kami
+      </h2>
+      <div className="flex justify-center space-x-6">
+        {/* WhatsApp Icon with white circular background */}
+        <div className="bg-gray-100 rounded-full p-2 z-0">
+          <a href="https://wa.me/6282231727778" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+              alt="WhatsApp"
+              className="h-10 w-10 hover:opacity-80 transition duration-200"
+            />
+          </a>
+        </div>
+
+        {/* Shopee Icon with white circular background */}
+        <div className="bg-gray-100 rounded-full p-2 z-0">
+          <a href="https://shopee.co.id/naufalstone7" target="_blank" rel="noopener noreferrer">
+            <img
+              src="LogoShopee.png"
+              alt="Shopee"
+              className="h-10 w-10 hover:opacity-80 transition duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
