@@ -33,6 +33,35 @@ function Footer() {
                                 />
                             </a>
                         </div>
+                        <div className="bg-gray-100 rounded-full p-1">
+                            <a href="https://www.tiktok.com/@naufalstone?_t=ZS-8soVjRcAoSI&_r=1" target="_blank" rel="noopener noreferrer">
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/id/a/a9/TikTok_logo.svg"
+                                alt="Tiktok"
+                                className="h-10 w-10 hover:opacity-80 transition duration-200"
+                            />
+                            </a>
+                        </div>
+
+                        {/* Baris Kedua - 2 Ikon */}
+                        <div className="bg-gray-100 rounded-full p-1">
+                            <a href="https://www.facebook.com/kijoko.mayak?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                                alt="Facebook"
+                                className="h-10 w-10 hover:opacity-80 transition duration-200"
+                            />
+                            </a>
+                        </div>
+                        <div className="bg-gray-100 rounded-full p-1">
+                            <a href="https://www.instagram.com/abynebunda?igsh=MXV3ZG5wNjdlY2R6Yg==" target="_blank" rel="noopener noreferrer">
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                                alt="Shopee 4"
+                                className="h-10 w-10 hover:opacity-80 transition duration-200"
+                            />
+                            </a>
+                        </div>
                     </div>
                 </div>
 

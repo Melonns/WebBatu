@@ -58,32 +58,60 @@ function ProfilUsaha() {
       </div>
 
       {/* Section Kontak */}
-      <h2 className="text-center font-dosis text-xl font-bold mb-4 mt-6">
-        Hubungi Kami
-      </h2>
-      <div className="flex justify-center space-x-6">
-        {/* WhatsApp Icon with white circular background */}
-        <div className="bg-gray-100 rounded-full p-2 z-0">
-          <a href="https://wa.me/6282231727778" target="_blank" rel="noopener noreferrer">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-              alt="WhatsApp"
-              className="h-10 w-10 hover:opacity-80 transition duration-200"
-            />
-          </a>
-        </div>
+<h2 className="text-center font-dosis text-xl font-bold mb-4 mt-6">
+  Hubungi Kami
+</h2>
+<div className="grid grid-cols-3 md:grid-cols-5 gap-4 justify-items-center">
+  {/* Baris Pertama - 3 Ikon */}
+  <div className="bg-gray-100 rounded-full p-2 z-0">
+    <a href="https://wa.me/6282231727778" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+        alt="WhatsApp"
+        className="h-10 w-10 hover:opacity-80 transition duration-200"
+      />
+    </a>
+  </div>
+  <div className="bg-gray-100 rounded-full p-2 z-0">
+    <a href="https://shopee.co.id/naufalstone1" target="_blank" rel="noopener noreferrer">
+      <img
+        src="LogoShopee.png"
+        alt="Shopee 1"
+        className="h-10 w-10 hover:opacity-80 transition duration-200"
+      />
+    </a>
+  </div>
+  <div className="bg-gray-100 rounded-full p-2 z-0">
+    <a href="https://www.tiktok.com/@naufalstone?_t=ZS-8soVjRcAoSI&_r=1" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/id/a/a9/TikTok_logo.svg"
+        alt="Tiktok"
+        className="h-10 w-10 hover:opacity-80 transition duration-200"
+      />
+    </a>
+  </div>
 
-        {/* Shopee Icon with white circular background */}
-        <div className="bg-gray-100 rounded-full p-2 z-0">
-          <a href="https://shopee.co.id/naufalstone7" target="_blank" rel="noopener noreferrer">
-            <img
-              src="LogoShopee.png"
-              alt="Shopee"
-              className="h-10 w-10 hover:opacity-80 transition duration-200"
-            />
-          </a>
-        </div>
-      </div>
+  {/* Baris Kedua - 2 Ikon */}
+  <div className=" md:col-start-auto bg-gray-100 rounded-full p-2 z-0">
+    <a href="https://www.facebook.com/kijoko.mayak?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+        alt="Facebook"
+        className="h-10 w-10 hover:opacity-80 transition duration-200"
+      />
+    </a>
+  </div>
+  <div className="bg-gray-100 rounded-full p-2 z-0">
+    <a href="https://www.instagram.com/abynebunda?igsh=MXV3ZG5wNjdlY2R6Yg==" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+        alt="Shopee 4"
+        className="h-10 w-10 hover:opacity-80 transition duration-200"
+      />
+    </a>
+  </div>
+</div>
+
     </div>
   );
 }
